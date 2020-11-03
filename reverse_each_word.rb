@@ -6,9 +6,7 @@ end
 
 
 def reverse_each_word(word)
-   new_word = word.split
-   rev_letter = new_word.collect {|ele| ele.reverse}
-   rev_letter.join(" ")
+   word.split.collect {|words| words.reverse}.join(" ")
 end
 
 
