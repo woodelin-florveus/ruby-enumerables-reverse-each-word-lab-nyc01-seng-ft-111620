@@ -10,3 +10,14 @@ def reverse_each_word(word)
    rev_letter = new_word.collect {|ele| ele.reverse}
    rev_letter.join(" ")
 end
+
+
+# def reverse_each_word(sentence)
+# sentence.split.collect {|word| word.reverse}.join(" ")
+# end
+
+# Without iterating:
+
+# def reverse_each_word(sentence)
+#  sentence.reverse.split.reverse.join(" ")
+# end
